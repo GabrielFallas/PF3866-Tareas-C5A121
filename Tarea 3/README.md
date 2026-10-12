@@ -11,7 +11,6 @@
 2. [Resultados del análisis con axe por página](resultados-axe.md)
 3. [Evidencia](evidencia/) — resultados crudos de axe ([`evidencia/axe/`](evidencia/axe/)), [salida de la inspección manual](evidencia/inspeccion-manual.md) que complementa los reportes y [revisión de los pendientes de axe](evidencia/revision-pendientes-axe.md)
 4. [Reportes de bugs](#reportes-de-bugs) (34 reportes)
-5. [Equivalencia de IDs](#equivalencia-de-ids)
 6. [Hallazgos descartados](#hallazgos-descartados)
 7. [Limitaciones](#limitaciones)
 
@@ -31,7 +30,7 @@ Se analizaron las páginas que implementan las funcionalidades críticas de la [
 - **Entorno.** Chromium 152 (navegador integrado de la app Claude), Windows 11 Pro, sin iniciar sesión. Viewport emulado de **1280×800** para todas las páginas; el catálogo se analizó además a **375×812** (móvil) porque el sitio es responsivo y muestra otro diseño de tarjetas. Cada archivo `.jsonl` registra la hora, el viewport y la versión de axe.
 - **Inspección manual.** Solo se usó para complementar los reportes de axe (por ejemplo, leer el texto visible junto a un control sin etiqueta); el texto literal de cada consulta y su respuesta está en [`inspeccion-manual.md`](evidencia/inspeccion-manual.md). No se reportan hallazgos que no provengan de un resultado de axe.
 - **Qué contiene cada reporte.** Los *pasos para reproducir* describen lo que se ejecutó; el *resultado obtenido* cita lo que devolvió axe o la consola (con el HTML real devuelto); las afirmaciones sobre lectores de pantalla no se incluyen porque no se probó con ninguno.
-- **Qué es un reporte.** Cada reporte describe una sola causa. Los elementos que fallan por la misma causa, en la misma página y con la misma regla (por ejemplo, los controles de un mismo formulario sin etiqueta) van juntos en un reporte con una tabla que lista cada elemento, su selector y el HTML que devolvió axe. Una versión anterior de esta entrega tenía 113 reportes, uno por control; se agruparon para que sean legibles, y la sección [Equivalencia de IDs](#equivalencia-de-ids) indica qué reportes anteriores reúne cada uno (en las tablas de cada reporte aparecen como `ant-NNN`). La prioridad de un reporte agrupado es la más alta de sus elementos, y el reporte anota la prioridad individual de cada uno.
+- **Qué es un reporte.** Cada reporte describe una sola causa. Los elementos que fallan por la misma causa, en la misma página y con la misma regla (por ejemplo, los controles de un mismo formulario sin etiqueta) van juntos en un reporte con una tabla que lista cada elemento, su selector y el HTML que devolvió axe. La prioridad de un reporte agrupado es la más alta de sus elementos, y el reporte anota la prioridad individual de cada uno.
 - **Pendientes de axe.** Los resultados `incomplete` se revisaron calculando a mano el contraste de cada nodo (ver [`revision-pendientes-axe.md`](evidencia/revision-pendientes-axe.md)).
 - **Prioridad.** 🔴 Crítica: control esencial del flujo crítico (marca, año, precio, datos de contacto, aceptación de términos, código y clave) sin nombre accesible. 🟠 Alta: impide o dificulta una función concreta (otros controles de formularios, enlaces sin nombre, texto en movimiento, zoom bloqueado, idioma). 🟡 Media: molesta, hay alternativa o el impacto es parcial (contraste, estructura, regiones). ⚪ Baja: detalle menor o decorativo.
 - **Formato.** Sigue la [plantilla de ejemplo del curso](https://github.com/aariasucr/PF3866-II-2026/blob/main/Ejemplo-Reporte-Bug-Tarea3.md).
@@ -107,46 +106,6 @@ El **contacto con el vendedor (CT-03)** se encuentra en la ficha del anuncio. Lo
 | [BUG-033](bugs/BUG-033.md) | Siete botones (BUSCAR, Comparar, Última Página, Continuar ×2, Anuncie Su Auto y Edite Su Anuncio) con texto blanco no alcanzan el contraste mínimo | 🟡 Media | todas | `color-contrast` |
 | [BUG-034](bugs/BUG-034.md) | El botón «Volver» del encabezado móvil es un enlace de imagen sin `alt` ni nombre (`javascript:window.history.back()`) | 🟡 Media | todas | `image-alt`, `link-name` |
 
-## Equivalencia de IDs
-
-La versión anterior de esta entrega tenía 113 reportes (un control por reporte). En esta versión se agruparon; los reportes agrupados llaman a los anteriores `ant-NNN` en sus tablas.
-
-| ID actual | ID(s) en la versión anterior (113 reportes) |
-|---|---|
-| BUG-001 | 001 |
-| BUG-002 | 002 |
-| BUG-003 | 003 |
-| BUG-004 | 004 |
-| BUG-005 | 005–006 |
-| BUG-006 | 007–009 |
-| BUG-007 | 010–012 |
-| BUG-008 | 013–028 |
-| BUG-009 | 029 |
-| BUG-010 | 031–032 |
-| BUG-011 | 033 |
-| BUG-012 | 034–035 |
-| BUG-013 | 038–041, 044 |
-| BUG-014 | 042–043 |
-| BUG-015 | 045–046 |
-| BUG-016 | 048–051 |
-| BUG-017 | 055–074 |
-| BUG-018 | 075–081 |
-| BUG-019 | 082–084 |
-| BUG-020 | 085 |
-| BUG-021 | 086–087 |
-| BUG-022 | 088 |
-| BUG-023 | 089–090 |
-| BUG-024 | 095–096 |
-| BUG-025 | 098 |
-| BUG-026 | 100 |
-| BUG-027 | 103 |
-| BUG-028 | 104 |
-| BUG-029 | 053–054, 105–106 |
-| BUG-030 | 107 |
-| BUG-031 | 108–109 |
-| BUG-032 | 110 |
-| BUG-033 | 030, 036–037, 091, 099, 111–112 |
-| BUG-034 | 113 |
 
 ## Hallazgos descartados
 
