@@ -1,0 +1,36 @@
+{"meta":{"url":"https://crautos.com/autosusados/searchresults.cfm?p=1&c=10040","title":"crautos.com","lang":"es","timestamp":"2026-10-04T23:29:05.342Z","viewport":"1280x800","axeVersion":"4.10.2","passes":36}}
+{"rule":"color-contrast","impact":"serious","tags":"wcag2aa,wcag143","nodes":23}
+ {"n":1,"t":".btn-sm.btn-green.ad-post","h":"<a class=\"btn btn-sm btn-green ad-post\" href=\"/autosusados/anunciarse.cfm\" style=\"margin-bottom:3px\"><i class=\"fa fa-car","cc":"3.46 (foreground color: #ffffff, background color: #05a01f, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-sm.btn-blue.ad-post","h":"<a class=\"btn btn-sm btn-blue ad-post\" href=\"/anuncios\"><i class=\"fa fa-edit text-white me-1\"></i> Edite Su Anuncio</a>","cc":"4.04 (foreground color: #ffffff, background color: #467fcf, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":3,"t":"a[href=\"cardetail.cfm?c=42124378\"] > table > tbody > tr:nth-child(2) > td[rowspa","h":"<span class=\"precio\" height=\"22\">¢ 400,000</span>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 13.5pt (18px), font weight: normal)."}
+ {"n":12,"t":"a[href=\"cardetail.cfm?c=49643547\"] > table > tbody > tr:nth-child(2) > td[rowspa","h":"<span class=\"precio\" height=\"22\">¢ 1,000,000</span>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 13.5pt (18px), font weight: normal)."}
+ {"n":1,"t":".margin-10","h":"<button type=\"submit\" class=\"btn-success margin-10\">Comparar</button>","cc":"3.54 (foreground color: #ffffff, background color: #039e26, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-xs","h":"<button class=\"btn-xs btn-success pull-right\">Última Página &gt;&gt;</button>","cc":"3.54 (foreground color: #ffffff, background color: #039e26, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":4,"t":"a[href=\"cardetail.cfm?c=41521905\"] > table[height=\"320\"] > tbody > tr[bgcolor=\"#","h":"<span class=\"precio-sm\" height=\"22\"> &nbsp;¢&nbsp;8,590,000</span>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 12.0pt (16px), font weight: normal)."}
+{"rule":"heading-order","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"h5:nth-child(2)","h":"<h5>Resultados de Búsqueda</h5>"}
+{"rule":"image-alt","impact":"critical","tags":"wcag2a,wcag111","nodes":8}
+ {"n":3,"t":"a[href=\"cardetail.cfm?c=41521905\"] > table[height=\"320\"] > tbody > tr[bgcolor=\"#","h":"<img src=\"/autosusados/images/financeicon.png\" width=\"25\">"}
+ {"n":3,"t":"a[href=\"cardetail.cfm?c=41521905\"] > table[height=\"320\"] > tbody > tr[bgcolor=\"#","h":"<img src=\"/autosusados/images/nooption.gif\">"}
+ {"n":1,"t":"a[href=\"cardetail.cfm?c=41722840\"] > table[height=\"320\"] > tbody > tr[bgcolor=\"#","h":"<img src=\"/autosusados/images/option3-53.gif\">"}
+ {"n":1,"t":".img-responsive","h":"<img class=\"img-responsive\" src=\"/images/crautoslogob.png\" hspace=\"10\">"}
+{"rule":"input-image-alt","impact":"critical","tags":"wcag2a,wcag111,wcag412","nodes":1}
+ {"n":1,"t":"input[type=\"image\"]","h":"<input type=\"image\" name=\"submit\" border=\"0\" src=\"images/adjustfilters.png\">"}
+{"rule":"label","impact":"critical","tags":"wcag2a,wcag412","nodes":16}
+ {"n":15,"t":"input[value=\"42124378\"]","h":"<input type=\"checkbox\" name=\"c\" value=\"42124378\" onclick=\"javascript:event.stopImmediatePropagation();\">"}
+ {"n":1,"t":"input[name=\"demo\"]","h":"<input type=\"checkbox\" name=\"demo\" value=\"checkbox\">"}
+{"rule":"landmark-one-main","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"html","h":"<html lang=\"es\" dir=\"ltr\" style=\"--primary-1: rgba(231, 42, 26, 0.1); --primary-2: rgba(231, 42, 26, 0.2); --primary-3: "}
+{"rule":"link-name","impact":"serious","tags":"wcag2a,wcag244,wcag412","nodes":2}
+ {"n":1,"t":".desktoplogo > a[href=\"/index.cfm\"]","h":"<a href=\"/index.cfm\"><img src=\"/assets/images/brand/logo.png?v=27\" alt=\"\"></a>"}
+ {"n":1,"t":".sc-1","h":"<a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a>"}
+{"rule":"list","impact":"serious","tags":"wcag2a,wcag131","nodes":1}
+ {"n":1,"t":".social","h":"<ul class=\"social\"> <li><a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a></li> <a href=\"https://f"}
+{"rule":"marquee","impact":"serious","tags":"wcag2a,wcag222","nodes":17}
+ {"n":17,"t":"a[href=\"cardetail.cfm?c=42124378\"] > table > tbody > tr:nth-child(6) > td[colspa","h":"<marquee scrollamount=\"3\"> Carro para proyecto esta detenido por falta de uso pero esta al dia con marchamos debe rtv </"}
+{"rule":"meta-viewport","impact":"critical","tags":"wcag2aa,wcag144","nodes":1}
+ {"n":1,"t":"meta[name=\"viewport\"]","h":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=0\">"}
+{"rule":"region","impact":"moderate","tags":"best-practice","nodes":31}
+ {"agrupado":"region: 13 patrones, ejemplos","ej":[".top-bar","h1","h5:nth-child(2)","form[name=\"form\"] > .d-lg-block.d-xl-block.d-md-block:nth-child(1)"]}
+{"incomplete":"color-contrast","nodes":18}
+{"incomplete":"frame-tested","nodes":1}

@@ -1,0 +1,61 @@
+{"meta":{"url":"https://crautos.com/autosusados/anunciarse.cfm","title":"crautos.com","lang":"en","timestamp":"2026-10-04T23:31:08.698Z","viewport":"1280x800","axeVersion":"4.10.2","passes":33}}
+{"rule":"color-contrast","impact":"serious","tags":"wcag2aa,wcag143","nodes":3}
+ {"n":1,"t":".btn-sm.btn-green.ad-post","h":"<a class=\"btn btn-sm btn-green ad-post\" href=\"/autosusados/anunciarse.cfm\" style=\"margin-bottom:3px\"><i class=\"fa fa-car text-whit","cc":"3.46 (foreground color: #ffffff, background color: #05a01f, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-sm.btn-blue.ad-post","h":"<a class=\"btn btn-sm btn-blue ad-post\" href=\"/anuncios\"><i class=\"fa fa-edit text-white me-1\"></i> Edite Su Anuncio</a>","cc":"4.04 (foreground color: #ffffff, background color: #467fcf, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":"#submit","h":"<button type=\"submit\" id=\"submit\" class=\"btn btn-lg btn-success\">&nbsp;&nbsp;Continuar&nbsp;&nbsp;</button>","cc":"3.54 (foreground color: #ffffff, background color: #039e26, font size: 13.1pt (17.44px), font weight: normal)."}
+{"rule":"heading-order","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"span > h4","h":"<h4>La Página de Autos de Costa Rica</h4>"}
+{"rule":"image-alt","impact":"critical","tags":"wcag2a,wcag111","nodes":35}
+ {"n":1,"t":"img[src$=\"recomendado.png\"]","h":"<img src=\"images/recomendado.png\">"}
+ {"n":1,"t":"img[src$=\"nuevo.gif\"]","h":"<img src=\"images/nuevo.gif\" width=\"50\" height=\"16\" align=\"absmiddle\">"}
+ {"n":30,"t":"img[src$=\"option3-1.gif\"]","h":"<img src=\"images/option3-1.gif\" width=\"140\" height=\"17\">"}
+ {"n":1,"t":"img[src$=\"terms.jpg\"]","h":"<img src=\"images/terms.jpg\" border=\"0\">"}
+ {"n":1,"t":"img[src$=\"terms2.jpg\"]","h":"<img src=\"images/terms2.jpg\" width=\"378\" height=\"49\" border=\"0\">"}
+ {"n":1,"t":".img-responsive","h":"<img class=\"img-responsive\" src=\"/images/crautoslogob.png\" hspace=\"10\">"}
+{"rule":"label","impact":"critical","tags":"wcag2a,wcag412","nodes":95}
+ {"n":1,"t":"input[name=\"modelo\"]","h":"<input name=\"modelo\" type=\"text\" onkeyup=\"stringFilter2(modelo)\" maxlength=\"30\">"}
+ {"n":1,"t":"input[name=\"cilindrada\"]","h":"<input name=\"cilindrada\" type=\"text\" onkeyup=\"stringFilter(cilindrada)\" size=\"5\" maxlength=\"5\">"}
+ {"n":1,"t":"input[name=\"precio\"]","h":"<input name=\"precio\" type=\"text\" onkeyup=\"stringFilter(precio);showdollars(precio)\" size=\"10\" maxlength=\"10\" style=\"width:100px\">"}
+ {"n":1,"t":"input[name=\"color\"]","h":"<input name=\"color\" type=\"text\" onkeyup=\"stringFilter3(color)\" size=\"15\" maxlength=\"15\" style=\"width:100px\">"}
+ {"n":1,"t":"input[name=\"color2\"]","h":"<input name=\"color2\" type=\"text\" onkeyup=\"stringFilter3(color)\" size=\"15\" maxlength=\"15\" style=\"width:100px\">"}
+ {"n":1,"t":"#mileage","h":"<input name=\"mileage\" type=\"text\" id=\"mileage\" onkeyup=\"stringFilter(mileage)\" size=\"6\" maxlength=\"6\" style=\"width:60px\">"}
+ {"n":1,"t":"input[name=\"mileagetype\"][value=\"0\"][type=\"radio\"]","h":"<input type=\"radio\" name=\"mileagetype\" id=\"mileagetype\" value=\"0\" checked=\"\">"}
+ {"n":1,"t":"input[name=\"mileagetype\"][value=\"1\"][type=\"radio\"]","h":"<input type=\"radio\" name=\"mileagetype\" id=\"mileagetype\" value=\"1\">"}
+ {"n":1,"t":"#tag","h":"<input name=\"tag\" type=\"text\" id=\"tag\" onkeyup=\"stringFilter2(tag)\" size=\"10\" maxlength=\"10\" style=\"width:80px\">"}
+ {"n":1,"t":"#comment","h":"<input name=\"comment\" type=\"text\" id=\"comment\" maxlength=\"100\" onkeyup=\"stringFilter3(comment)\" style=\"width:100%\">"}
+ {"n":39,"t":"input[value=\"1\"][type=\"checkbox\"][name=\"caracteristicas\"]","h":"<input type=\"checkbox\" name=\"caracteristicas\" value=\"1\">"}
+ {"n":1,"t":"input[name=\"nombre\"]","h":"<input name=\"nombre\" type=\"text\" onkeyup=\"stringFilter3(nombre)\" value=\"\" maxlength=\"30\">"}
+ {"n":1,"t":"input[name=\"email\"]","h":"<input name=\"email\" type=\"text\" onkeyup=\"stringFilter4(email)\" value=\"\" maxlength=\"40\">"}
+ {"n":1,"t":"input[name=\"email2\"]","h":"<input name=\"email2\" type=\"text\" onkeyup=\"stringFilter4(email2)\" value=\"\" maxlength=\"40\">"}
+ {"n":3,"t":"#tel1","h":"<input name=\"tel1\" type=\"text\" id=\"tel1\" onkeyup=\"stringFilter(tel1)\" size=\"8\" maxlength=\"8\" style=\"width:90px\">"}
+ {"n":1,"t":"#whatsapp","h":"<input name=\"whatsapp\" type=\"text\" id=\"whatsapp\" onkeyup=\"stringFilter(whatsapp)\" size=\"8\" maxlength=\"8\" style=\"width:90px\">"}
+ {"n":37,"t":"input[name=\"option9\"][value=\"0\"][type=\"radio\"]","h":"<input name=\"option9\" type=\"radio\" value=\"0\">"}
+ {"n":1,"t":"input[value=\"0\"][name=\"option3\"][type=\"radio\"]","h":"<input name=\"option3\" type=\"radio\" value=\"0\" checked=\"\">"}
+ {"n":1,"t":"#acceptrules","h":"<input name=\"acceptrules\" type=\"checkbox\" id=\"acceptrules\" value=\"1\">"}
+{"rule":"landmark-one-main","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"html","h":"<html lang=\"en\" dir=\"ltr\" style=\"--primary-1: rgba(231, 42, 26, 0.1); --primary-2: rgba(231, 42, 26, 0.2); --primary-3: rgba(231, "}
+{"rule":"link-name","impact":"serious","tags":"wcag2a,wcag244,wcag412","nodes":4}
+ {"n":1,"t":".desktoplogo > a[href=\"/index.cfm\"]","h":"<a href=\"/index.cfm\"><img src=\"/assets/images/brand/logo.png?v=27\" alt=\"\"></a>"}
+ {"n":1,"t":"a[href$=\"terms.htm\"]","h":"<a href=\"terms.htm\" target=\"_blank\"><img src=\"images/terms.jpg\" border=\"0\"></a>"}
+ {"n":1,"t":"a[href$=\"terms2.htm\"]","h":"<a href=\"terms2.htm\" target=\"_blank\"><img src=\"images/terms2.jpg\" width=\"378\" height=\"49\" border=\"0\"></a>"}
+ {"n":1,"t":".sc-1","h":"<a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a>"}
+{"rule":"list","impact":"serious","tags":"wcag2a,wcag131","nodes":1}
+ {"n":1,"t":".social","h":"<ul class=\"social\"> <li><a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a></li> <a href=\"https://facebook.co"}
+{"rule":"meta-viewport","impact":"critical","tags":"wcag2aa,wcag144","nodes":1}
+ {"n":1,"t":"meta[name=\"viewport\"]","h":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=0\">"}
+{"rule":"region","impact":"moderate","tags":"best-practice","nodes":33}
+ {"agrupado":"region: 9 patrones, ejemplos","ej":[".top-bar","section:nth-child(3)",".col-sm-12 > table > tbody > tr:nth-child(1)",".sectiontitle[bgcolor=\"#3366CC\"]:nth-child(4)"]}
+{"rule":"select-name","impact":"critical","tags":"wcag2a,wcag412","nodes":12}
+ {"n":1,"t":"select[name=\"marca\"]","h":"<select name=\"marca\">"}
+ {"n":1,"t":"select[name=\"estilo\"]","h":"<select name=\"estilo\">"}
+ {"n":1,"t":"#numpas","h":"<select name=\"numpas\" id=\"numpas\">"}
+ {"n":1,"t":"select[name=\"ano\"]","h":"<select name=\"ano\">"}
+ {"n":1,"t":"select[name=\"estado\"]","h":"<select name=\"estado\">"}
+ {"n":1,"t":"#negotiable","h":"<select name=\"negotiable\" id=\"negotiable\"> <option value=\"NO\" selected=\"\">NO</option> <option value=\"SI\">SI</option> </select>"}
+ {"n":1,"t":"#combustible","h":"<select name=\"combustible\" id=\"combustible\" onchange=\"checkfuel()\">"}
+ {"n":1,"t":"#transmision","h":"<select name=\"transmision\" id=\"transmision\"> <option value=\"Manual\" selected=\"\">Manual</option> <option value=\"AutomÃ¡tica\">Automá"}
+ {"n":1,"t":"#registered","h":"<select name=\"registered\" id=\"registered\" style=\"width:50px\"> <option value=\"SI\" selected=\"\">SI</option> <option value=\"NO\">NO</op"}
+ {"n":1,"t":"#recibe","h":"<select name=\"recibe\" id=\"recibe\" style=\"width:50px\"> <option value=\"NO\" selected=\"\">NO</option> <option value=\"SI\">SI</option> </"}
+ {"n":1,"t":"#numdoors","h":"<select name=\"numdoors\" id=\"numdoors\">"}
+ {"n":1,"t":"#province","h":"<select name=\"province\" id=\"province\">"}
+{"incomplete":"color-contrast","nodes":156}

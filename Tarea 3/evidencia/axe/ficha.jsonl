@@ -1,0 +1,42 @@
+{"meta":{"url":"https://crautos.com/autosusados/cardetail.cfm?c=20483869","title":"crautos.com Nissan FRONTIER 2016 ¢ 12,300,000 ($ 26,739)*","lang":"en","timestamp":"2026-10-04T23:29:35.794Z","viewport":"1280x800","axeVersion":"4.10.2","passes":32}}
+{"rule":"color-contrast","impact":"serious","tags":"wcag2aa,wcag143","nodes":2}
+ {"n":1,"t":".btn-sm.btn-green.ad-post","h":"<a class=\"btn btn-sm btn-green ad-post\" href=\"/autosusados/anunciarse.cfm\" style=\"margin-bottom:3px\"><i class=\"fa fa-car text-whit","cc":"3.46 (foreground color: #ffffff, background color: #05a01f, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-sm.btn-blue.ad-post","h":"<a class=\"btn btn-sm btn-blue ad-post\" href=\"/anuncios\"><i class=\"fa fa-edit text-white me-1\"></i> Edite Su Anuncio</a>","cc":"4.04 (foreground color: #ffffff, background color: #467fcf, font size: 10.5pt (14px), font weight: normal)."}
+{"rule":"heading-order","impact":"moderate","tags":"best-practice","nodes":2}
+ {"n":1,"t":"h3:nth-child(4)","h":"<h3>($ 26,739)*</h3>"}
+ {"n":1,"t":"h6","h":"<h6><b>GALERIA DE FOTOS</b></h6>"}
+{"rule":"image-alt","impact":"critical","tags":"wcag2a,wcag111","nodes":8}
+ {"n":1,"t":"h3:nth-child(6) > img[src$=\"bacsjlogo.png\"]","h":"<img src=\"images/bacsjlogo.png\" style=\"height:25px\">"}
+ {"n":1,"t":"img[src$=\"icon-reportad.png\"]","h":"<img src=\"images/icon-reportad.png\" border=\"0\" style=\"margin-right: 30px\">"}
+ {"n":1,"t":"img[src$=\"icon-add2favorites.png\"]","h":"<img src=\"images/icon-add2favorites.png\" border=\"0\" style=\"margin-right: 30px\">"}
+ {"n":1,"t":"img[src$=\"icon-similar.png\"]","h":"<img src=\"images/icon-similar.png\" border=\"0\" style=\"margin-right: 30px\">"}
+ {"n":1,"t":"img[src$=\"icon-extract.png\"]","h":"<img src=\"images/icon-extract.png\" border=\"0\">"}
+ {"n":1,"t":"#aiicon","h":"<img src=\"images/aiicon.png\" width=\"316\" border=\"0\" id=\"aiicon\">"}
+ {"n":1,"t":"img[onclick=\"opentab(event, 'b1')\"]","h":"<img src=\"images/bacsjlogo.png\" style=\"height:40px; margin-bottom:15px\" onclick=\"opentab(event, 'b1')\">"}
+ {"n":1,"t":"img[src$=\"crautoslogob.png\"]","h":"<img class=\"img-responsive\" src=\"/images/crautoslogob.png\" hspace=\"10\">"}
+{"rule":"landmark-one-main","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"html","h":"<html lang=\"en\" dir=\"ltr\" style=\"--primary-1: rgba(231, 42, 26, 0.1); --primary-2: rgba(231, 42, 26, 0.2); --primary-3: rgba(231, "}
+{"rule":"link-name","impact":"serious","tags":"wcag2a,wcag244,wcag412","nodes":20}
+ {"n":1,"t":".desktoplogo > a[href=\"/index.cfm\"]","h":"<a href=\"/index.cfm\"><img src=\"/assets/images/brand/logo.png?v=27\" alt=\"\"></a>"}
+ {"n":1,"t":"div[align=\"center\"] > a[target=\"_blank\"]:nth-child(1)","h":"<a href=\"https://www.facebook.com/sharer/sharer.php?u=https://crautos.com/autosusados/cardetail.cfm?c=20483869\" target=\"_blank\"> <"}
+ {"n":1,"t":"div[align=\"center\"] > a[target=\"_blank\"]:nth-child(2)","h":"<a href=\"https://api.whatsapp.com/send?text= https://crautos.com/autosusados/cardetail.cfm?c=20483869\" target=\"_blank\"> <img style"}
+ {"n":1,"t":"td[width=\"25%\"][align=\"center\"]:nth-child(1) > a[target=\"_blank\"]","h":"<a href=\"/micrautos/reportad.cfm?r=20483869\" target=\"_blank\"><img src=\"images/icon-reportad.png\" border=\"0\" style=\"margin-right: 3"}
+ {"n":1,"t":"td[width=\"25%\"][align=\"center\"]:nth-child(2) > a[target=\"_blank\"]","h":"<a href=\"/micrautos/addusedfavorite.cfm?r=20483869\" target=\"_blank\"><img src=\"images/icon-add2favorites.png\" border=\"0\" style=\"mar"}
+ {"n":1,"t":"a[target=\"_self\"]","h":"<a href=\"similar.cfm?motor=2500&amp;style=05&amp;fuel=1&amp;trans=0&amp;doors=4&amp;ano=2016&amp;precio=12300000\" target=\"_self\"><"}
+ {"n":1,"t":"a[href=\"extract.cfm?c=20483869\"]","h":"<a href=\"extract.cfm?c=20483869\" target=\"_blank\"><img src=\"images/icon-extract.png\" border=\"0\"></a>"}
+ {"n":1,"t":"a[href=\"#\"][title=\"\"]:nth-child(1)","h":"<a href=\"#\" title=\"\" class=\"\"> <span></span> </a>"}
+ {"n":1,"t":".ws_selbull","h":"<a href=\"#\" title=\"\" class=\"ws_selbull\"> <span></span> </a>"}
+ {"n":6,"t":"a[href=\"#\"][title=\"\"]:nth-child(3)","h":"<a href=\"#\" title=\"\"> <span></span> </a>"}
+ {"n":1,"t":".ws_next","h":"<a href=\"#\" class=\"ws_next\"><span><i></i><b></b></span></a>"}
+ {"n":1,"t":".ws_prev","h":"<a href=\"#\" class=\"ws_prev\"><span><i></i><b></b></span></a>"}
+ {"n":1,"t":".ws_playpause","h":"<a href=\"#\" class=\"ws_playpause ws_pause\"><span><i></i><b></b></span></a>"}
+ {"n":1,"t":"a[href=\"javascript:toggleVisibility();\"]","h":"<a href=\"javascript:toggleVisibility();\"><img src=\"images/aiicon.png\" width=\"316\" border=\"0\" id=\"aiicon\"></a>"}
+ {"n":1,"t":".sc-1","h":"<a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a>"}
+{"rule":"list","impact":"serious","tags":"wcag2a,wcag131","nodes":1}
+ {"n":1,"t":".social","h":"<ul class=\"social\"> <li><a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a></li> <a href=\"https://facebook.co"}
+{"rule":"meta-viewport","impact":"critical","tags":"wcag2aa,wcag144","nodes":1}
+ {"n":1,"t":"meta[name=\"viewport\"]","h":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=0\">"}
+{"rule":"region","impact":"moderate","tags":"best-practice","nodes":17}
+ {"agrupado":"region: 14 patrones, ejemplos","ej":[".top-bar","section:nth-child(5)",".col-xl-9 > .table-responsive[width=\"100%\"][cellpadding=\"0\"] > tbody > tr:nth-ch","td[colspan=\"4\"] > div[align=\"center\"]"]}
+{"incomplete":"color-contrast","nodes":54}
+{"incomplete":"frame-tested","nodes":1}

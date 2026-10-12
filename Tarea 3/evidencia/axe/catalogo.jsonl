@@ -1,0 +1,63 @@
+{"meta":{"url":"https://crautos.com/autosusados/index.cfm","title":"crautos.com","lang":"en","timestamp":"2026-10-04T23:28:18.870Z","viewport":"1280x800","axeVersion":"4.10.2","passes":35}}
+{"rule":"color-contrast","impact":"serious","tags":"wcag2aa,wcag143","nodes":65}
+ {"n":1,"t":".btn-sm.btn-green.ad-post","h":"<a class=\"btn btn-sm btn-green ad-post\" href=\"/autosusados/anunciarse.cfm\" style=\"margin-bottom:3px\"><i class=\"fa fa-car","cc":"3.46 (foreground color: #ffffff, background color: #05a01f, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-sm.btn-blue.ad-post","h":"<a class=\"btn btn-sm btn-blue ad-post\" href=\"/anuncios\"><i class=\"fa fa-edit text-white me-1\"></i> Edite Su Anuncio</a>","cc":"4.04 (foreground color: #ffffff, background color: #467fcf, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":44,"t":".highbox.col-md-3.col-lg-2:nth-child(2) > .margin-bottom-20.scroll_effect.fadeIn","h":"<td class=\"precio\" height=\"22\">&nbsp;¢ 14,260,000</td>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 12.0pt (16px), font weight: normal)."}
+ {"n":10,"t":".row:nth-child(2) > .highbox-dealer.col-md-3.col-lg-2:nth-child(1) > .margin-bot","h":"<span class=\"precio\" height=\"22\"> &nbsp;¢&nbsp;26,675,000</span>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 12.0pt (16px), font weight: normal)."}
+ {"n":8,"t":".row:nth-child(3) > .highbox-dealer.col-md-3.col-lg-2:nth-child(1) > .margin-bot","h":"<span class=\"precio\" height=\"22\"> &nbsp;$&nbsp;53,261</span>","cc":"4.03 (foreground color: #008800, background color: #efefef, font size: 12.0pt (16px), font weight: normal)."}
+ {"n":1,"t":"button","h":"<button type=\"submit\" class=\"btn btn-lg btn-success\">&nbsp;&nbsp;BUSCAR&nbsp;&nbsp;</button>","cc":"3.54 (foreground color: #ffffff, background color: #039e26, font size: 13.1pt (17.44px), font weight: normal)."}
+{"rule":"heading-order","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"span > h4","h":"<h4>La Página de Autos de Costa Rica</h4>"}
+{"rule":"image-alt","impact":"critical","tags":"wcag2a,wcag111","nodes":114}
+ {"n":1,"t":"a[target=\"_self\"][href$=\"anunciarse.cfm\"] > .img-responsive[hspace=\"10\"][vspace=","h":"<img class=\"img-responsive\" src=\"/autosusados/images/bt-anunciatuauto.png\" hspace=\"10\" vspace=\"10\">"}
+ {"n":1,"t":"a[href$=\"ofertasdeldia/\"][target=\"_self\"] > .img-responsive[hspace=\"10\"][vspace=","h":"<img class=\"img-responsive\" src=\"/autosusados/images/bt-ofertasdeldia.png\" hspace=\"10\" vspace=\"10\">"}
+ {"n":1,"t":".brandtitle2 > img[width=\"25\"]","h":"<img src=\"/autosusados/images/financeicon2.png\" width=\"25\">"}
+ {"n":1,"t":".sptb > .container > .row > .col-12 > .padding-10.row > .col-12 > table > tbody ","h":"<img class=\"img-responsive\" src=\"/autosusados/images/destacados.png\">"}
+ {"n":31,"t":".highbox.col-md-3.col-lg-2:nth-child(2) > .margin-bottom-20.scroll_effect.fadeIn","h":"<img src=\"/images/financeicon.png\" width=\"25\">"}
+ {"n":50,"t":".highbox.col-md-3.col-lg-2:nth-child(2) > .margin-bottom-20.scroll_effect.fadeIn","h":"<img src=\"/autosusados/images/nooption.gif\">"}
+ {"n":12,"t":".highbox.col-md-3.col-lg-2:nth-child(9) > .margin-bottom-20.scroll_effect.fadeIn","h":"<img src=\"/autosusados/images/option3-56.gif\">"}
+ {"n":1,"t":".bg-white:nth-child(6) > .container > .row > .col-12 > .padding-10.row > .col-12","h":"<img class=\"img-responsive\" src=\"/autosusados/images/destacadosdevendedores.png\">"}
+ {"n":14,"t":".row:nth-child(2) > .highbox-dealer.col-md-3.col-lg-2:nth-child(1) > .margin-bot","h":"<img src=\"/autosusados/images/financeicon.png\" width=\"25\">"}
+ {"n":1,"t":".searchform > .img-responsive","h":"<img src=\"/autosusados/images/searchtitle.png\" class=\"img-responsive\">"}
+ {"n":1,"t":"img[src$=\"crautoslogob.png\"]","h":"<img class=\"img-responsive\" src=\"/images/crautoslogob.png\" hspace=\"10\">"}
+{"rule":"label","impact":"critical","tags":"wcag2a,wcag412","nodes":2}
+ {"n":1,"t":"input[name=\"modelstr\"]","h":"<input name=\"modelstr\" type=\"text\" value=\"\" size=\"30\" maxlength=\"30\">"}
+ {"n":1,"t":"input[type=\"checkbox\"]","h":"<input type=\"checkbox\" name=\"splitmode\" value=\"1\">"}
+{"rule":"landmark-one-main","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"html","h":"<html lang=\"en\" dir=\"ltr\" style=\"--primary-1: rgba(231, 42, 26, 0.1); --primary-2: rgba(231, 42, 26, 0.2); --primary-3: "}
+{"rule":"link-name","impact":"serious","tags":"wcag2a,wcag244,wcag412","nodes":5}
+ {"n":1,"t":".desktoplogo > a[href=\"/index.cfm\"]","h":"<a href=\"/index.cfm\"><img src=\"/assets/images/brand/logo.png?v=27\" alt=\"\"></a>"}
+ {"n":1,"t":"a[target=\"_self\"][href$=\"anunciarse.cfm\"]","h":"<a href=\"anunciarse.cfm\" target=\"_self\"> <img class=\"img-responsive\" src=\"/autosusados/images/bt-anunciatuauto.png\" hspa"}
+ {"n":1,"t":"div[align=\"center\"] > a[href$=\"ofertasdeldia/\"][target=\"_self\"]","h":"<a href=\"/autosusados/ofertasdeldia/\" target=\"_self\"> <img class=\"img-responsive\" src=\"/autosusados/images/bt-ofertasdel"}
+ {"n":1,"t":"div[align=\"center\"] > a[target=\"_blank\"]","h":"<a href=\"https://www.facebook.com/crautos\" target=\"_blank\"><img class=\"img-responsive\" src=\"../images/bt-fb.png\" alt=\"\" "}
+ {"n":1,"t":".sc-1","h":"<a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a>"}
+{"rule":"list","impact":"serious","tags":"wcag2a,wcag131","nodes":1}
+ {"n":1,"t":".social","h":"<ul class=\"social\"> <li><a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a></li> <a href=\"https://f"}
+{"rule":"marquee","impact":"serious","tags":"wcag2a,wcag222","nodes":55}
+ {"n":55,"t":".highbox.col-md-3.col-lg-2:nth-child(5) > .margin-bottom-20.scroll_effect.fadeIn","h":"<marquee scrollamount=\"3\"> Nissan Frontier XE - Se lo lleva esta misma semana. - Accesorios KEKO - Forros en los asiento"}
+{"rule":"meta-viewport","impact":"critical","tags":"wcag2aa,wcag144","nodes":1}
+ {"n":1,"t":"meta[name=\"viewport\"]","h":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=0\">"}
+{"rule":"object-alt","impact":"serious","tags":"wcag2a,wcag111","nodes":62}
+ {"n":36,"t":"#datamain93323081","h":"<object type=\"text/html\" data=\"/autosusados/showpicfeatures.cfm?f=93323081-t.jpg&amp;c=93323081\" width=\"100%\" height=\"11"}
+ {"n":26,"t":"td[valign=\"top\"][align=\"center\"] > object[name=\"datamain5757388\"]","h":"<object type=\"text/html\" data=\"/autosusados/showpicfeatures.cfm?f=5757388-t.jpg&amp;c=5757388\" width=\"100%\" height=\"116\""}
+{"rule":"region","impact":"moderate","tags":"best-practice","nodes":81}
+ {"agrupado":"region: 16 patrones, ejemplos","ej":[".top-bar","section:nth-child(3)","body > div[align=\"center\"]",".sptb > .container > .row > .col-12 > .padding-10.row > .col-12"]}
+{"rule":"select-name","impact":"critical","tags":"wcag2a,wcag412","nodes":14}
+ {"n":1,"t":"select[name=\"brand\"]","h":"<select name=\"brand\" size=\"1\" class=\"col-xs-10\">"}
+ {"n":1,"t":"select[name=\"style\"]","h":"<select name=\"style\" size=\"1\" class=\"col-xs-10\">"}
+ {"n":1,"t":"select[name=\"fuel\"]","h":"<select name=\"fuel\" size=\"1\" class=\"col-xs-8\">"}
+ {"n":1,"t":"select[name=\"trans\"]","h":"<select name=\"trans\" size=\"1\" class=\"col-xs-8\"> <option value=\"0\" selected=\"\">No Importa</option> <option value=\"1\">Manu"}
+ {"n":1,"t":"select[name=\"financed\"]","h":"<select name=\"financed\" size=\"1\" class=\"col-xs-10\"> <option value=\"00\" selected=\"\">No importa</option> <option value=\"01\""}
+ {"n":1,"t":"select[name=\"recibe\"]","h":"<select name=\"recibe\" size=\"1\" class=\"col-xs-10\"> <option value=\"0\" selected=\"\">No importa</option> <option value=\"1\">Só"}
+ {"n":1,"t":"select[name=\"province\"]","h":"<select name=\"province\" size=\"1\" class=\"col-xs-7\">"}
+ {"n":1,"t":"select[name=\"doors\"]","h":"<select name=\"doors\" size=\"1\" class=\"col-xs-7\"> <option value=\"0\" selected=\"\">No Importa</option> <option value=\"3\">2-3<"}
+ {"n":1,"t":"select[name=\"yearfrom\"]","h":"<select name=\"yearfrom\" size=\"1\" class=\"col-xs-5\">"}
+ {"n":1,"t":"select[name=\"yearto\"]","h":"<select name=\"yearto\" size=\"1\" class=\"col-xs-5\">"}
+ {"n":1,"t":"select[name=\"pricefrom\"]","h":"<select name=\"pricefrom\" size=\"1\" class=\"col-xs-7\">"}
+ {"n":1,"t":"select[name=\"priceto\"]","h":"<select name=\"priceto\" size=\"1\" class=\"col-xs-7\">"}
+ {"n":1,"t":"select[name=\"orderby\"]","h":"<select name=\"orderby\" class=\"col-xs-5\">"}
+ {"n":1,"t":"select[name=\"newused\"]","h":"<select name=\"newused\" size=\"1\" class=\"col-xs-8\"> <option value=\"0\" selected=\"\">Solo usados</option> <option value=\"1\" selected=\"\">N"}
+{"incomplete":"color-contrast","nodes":22}
+{"incomplete":"frame-tested","nodes":3}
+{"incomplete":"frame-title-unique","nodes":3}
+{"incomplete":"link-in-text-block","nodes":1}

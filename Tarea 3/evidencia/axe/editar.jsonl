@@ -1,0 +1,27 @@
+{"meta":{"url":"https://crautos.com/anuncios/","title":"crautos.com","lang":"en","timestamp":"2026-10-04T23:32:04.370Z","viewport":"1280x800","axeVersion":"4.10.2","passes":34}}
+{"rule":"color-contrast","impact":"serious","tags":"wcag2aa,wcag143","nodes":3}
+ {"n":1,"t":".btn-sm.btn-green.ad-post","h":"<a class=\"btn btn-sm btn-green ad-post\" href=\"/autosusados/anunciarse.cfm\" style=\"margin-bottom:3px\"><i class=\"fa fa-car text-whit","cc":"3.46 (foreground color: #ffffff, background color: #05a01f, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":".btn-sm.btn-blue.ad-post","h":"<a class=\"btn btn-sm btn-blue ad-post\" href=\"/anuncios\"><i class=\"fa fa-edit text-white me-1\"></i> Edite Su Anuncio</a>","cc":"4.04 (foreground color: #ffffff, background color: #467fcf, font size: 10.5pt (14px), font weight: normal)."}
+ {"n":1,"t":"button","h":"<button type=\"submit\" name=\"Submit\" class=\"btn btn-success btn-lg\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Continuar&nbsp;&nbsp;&nbsp;&nbsp;","cc":"3.54 (foreground color: #ffffff, background color: #039e26, font size: 13.1pt (17.44px), font weight: normal)."}
+{"rule":"heading-order","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"span > h4","h":"<h4>La Página de Autos de Costa Rica</h4>"}
+{"rule":"image-alt","impact":"critical","tags":"wcag2a,wcag111","nodes":2}
+ {"n":1,"t":"img[src$=\"forgotpwd.png\"]","h":"<img src=\"forgotpwd.png\">"}
+ {"n":1,"t":".img-responsive","h":"<img class=\"img-responsive\" src=\"/images/crautoslogob.png\" hspace=\"10\">"}
+{"rule":"label","impact":"critical","tags":"wcag2a,wcag412","nodes":2}
+ {"n":1,"t":"#c","h":"<input name=\"c\" type=\"text\" id=\"c\" size=\"9\" maxlength=\"7\">"}
+ {"n":1,"t":"#p","h":"<input name=\"p\" type=\"text\" id=\"p\" size=\"4\" maxlength=\"4\">"}
+{"rule":"landmark-one-main","impact":"moderate","tags":"best-practice","nodes":1}
+ {"n":1,"t":"html","h":"<html lang=\"en\" dir=\"ltr\" style=\"--primary-1: rgba(231, 42, 26, 0.1); --primary-2: rgba(231, 42, 26, 0.2); --primary-3: rgba(231, "}
+{"rule":"link-name","impact":"serious","tags":"wcag2a,wcag244,wcag412","nodes":3}
+ {"n":1,"t":".desktoplogo > a[href=\"/index.cfm\"]","h":"<a href=\"/index.cfm\"><img src=\"/assets/images/brand/logo.png?v=27\" alt=\"\"></a>"}
+ {"n":1,"t":"a[href$=\"recoverpwd.cfm\"]","h":"<a href=\"recoverpwd.cfm\"><img src=\"forgotpwd.png\"></a>"}
+ {"n":1,"t":".sc-1","h":"<a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a>"}
+{"rule":"list","impact":"serious","tags":"wcag2a,wcag131","nodes":1}
+ {"n":1,"t":".social","h":"<ul class=\"social\"> <li><a href=\"https://facebook.com/crautos\" target=\"_blank\" class=\"sc-1\"></a></li> <a href=\"https://facebook.co"}
+{"rule":"meta-viewport","impact":"critical","tags":"wcag2aa,wcag144","nodes":1}
+ {"n":1,"t":"meta[name=\"viewport\"]","h":"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=0\">"}
+{"rule":"region","impact":"moderate","tags":"best-practice","nodes":9}
+ {"agrupado":"region: 8 patrones, ejemplos","ej":[".top-bar","section:nth-child(3)","tr[bgcolor=\"#008800\"]","tr[bgcolor=\"#FFFFCC\"]"]}
+{"incomplete":"color-contrast","nodes":6}
+{"incomplete":"frame-tested","nodes":1}
